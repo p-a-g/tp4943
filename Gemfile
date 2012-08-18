@@ -8,6 +8,7 @@ gem 'bcrypt-ruby', '3.0.1'
 group :development, :test do
   gem 'rspec-rails', '2.10.0'
   gem 'guard-rspec', '0.5.5'
+  gem 'jazz_hands'
 end
 
 gem 'annotate', '2.5.0', group: :development
@@ -29,4 +30,5 @@ group :test do
   gem 'libnotify', '0.5.9'
   gem 'guard-spork', '0.3.2'
   gem 'spork', '0.9.0'
+  gem 'factory_girl_rails', '1.4.0'
 end
