@@ -1,0 +1,56 @@
+=> [
+  [1;37m[0] [0m#<User:0xa5e9e6c> {
+                 :id[0;37m => [0m[1;34m1[0m,
+               :name[0;37m => [0m[0;33m"dfwg"[0m,
+              :email[0;37m => [0m[0;33m"gfwgwgt@qef.de"[0m,
+         :created_at[0;37m => [0m[0;32mSat, 18 Aug 2012 23:24:40 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mSun, 19 Aug 2012 16:33:09 UTC +00:00[0m,
+    :password_digest[0;37m => [0m[0;33m"$2a$10$UUKzw/QJIpSH6245R10jfOuIGCfuRuLzGvmXXGK2E6MQcddYVkdpa"[0m,
+     :remember_token[0;37m => [0m[0;33m"pQZra9JBRyndSnolxWgNqw"[0m
+  },
+  [1;37m[1] [0m#<User:0xa5e9a34> {
+                 :id[0;37m => [0m[1;34m2[0m,
+               :name[0;37m => [0m[0;33m"dsfaef"[0m,
+              :email[0;37m => [0m[0;33m"davfqaf@sfdqfd.sw"[0m,
+         :created_at[0;37m => [0m[0;32mSun, 19 Aug 2012 00:39:03 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mSun, 19 Aug 2012 16:33:09 UTC +00:00[0m,
+    :password_digest[0;37m => [0m[0;33m"$2a$10$.21eHM3DuJ7Z2jNszJ9IKOVrqKhqN8Uly0gjucmPZsOL7rfCzlSxy"[0m,
+     :remember_token[0;37m => [0m[0;33m"2WutIFeOiyTVFKqJOHeVug"[0m
+  },
+  [1;37m[2] [0m#<User:0xa5f161c> {
+                 :id[0;37m => [0m[1;34m3[0m,
+               :name[0;37m => [0m[0;33m"<script>alert(\"Bo!\")</script>"[0m,
+              :email[0;37m => [0m[0;33m"dsvfsdfb@sdvf.de"[0m,
+         :created_at[0;37m => [0m[0;32mSun, 19 Aug 2012 08:06:21 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mSun, 19 Aug 2012 16:33:09 UTC +00:00[0m,
+    :password_digest[0;37m => [0m[0;33m"$2a$10$8Xd540Xry/bLfmN2eWfeoeyJza/tChXiJipzYQXj9z86veYYlrpSe"[0m,
+     :remember_token[0;37m => [0m[0;33m"v7NfpFDov05bkQF56DiTxA"[0m
+  },
+  [1;37m[3] [0m#<User:0xa5f120c> {
+                 :id[0;37m => [0m[1;34m4[0m,
+               :name[0;37m => [0m[0;33m"sdgnwpnb"[0m,
+              :email[0;37m => [0m[0;33m"nfoqf@dibvfi.de"[0m,
+         :created_at[0;37m => [0m[0;32mSun, 19 Aug 2012 09:32:34 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mSun, 19 Aug 2012 16:33:09 UTC +00:00[0m,
+    :password_digest[0;37m => [0m[0;33m"$2a$10$v.ZWlin1SfRHYpbN2voCcOe/1oSENOvKYH4tdSlMWLQ6L1EfYc9o."[0m,
+     :remember_token[0;37m => [0m[0;33m"2SjLuCHEnBl6-2bdHf4L-w"[0m
+  },
+  [1;37m[4] [0m#<User:0xa5f0e38> {
+                 :id[0;37m => [0m[1;34m5[0m,
+               :name[0;37m => [0m[0;33m"sfwgfdf"[0m,
+              :email[0;37m => [0m[0;33m"asdfafd@dsfsf.de"[0m,
+         :created_at[0;37m => [0m[0;32mSun, 19 Aug 2012 15:46:00 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mSun, 19 Aug 2012 16:33:09 UTC +00:00[0m,
+    :password_digest[0;37m => [0m[0;33m"$2a$10$mCt4F6HleUJJwn6tVBy/tuuEWXCVG0qz/onHV8DpdEJf8/IiIsB9."[0m,
+     :remember_token[0;37m => [0m[0;33m"46-LRa7NNg31NISAhMp64A"[0m
+  },
+  [1;37m[5] [0m#<User:0xa5f0a00> {
+                 :id[0;37m => [0m[1;34m6[0m,
+               :name[0;37m => [0m[0;33m"ldrjwb fow fw"[0m,
+              :email[0;37m => [0m[0;33m"asldjbwof@wobwif.de"[0m,
+         :created_at[0;37m => [0m[0;32mSun, 19 Aug 2012 16:06:43 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mSun, 19 Aug 2012 16:33:09 UTC +00:00[0m,
+    :password_digest[0;37m => [0m[0;33m"$2a$10$oGxeS7rDfV9wgfT4RA8x4ufeqc//1D3.IRXiexH7TV96jsdM0RBDe"[0m,
+     :remember_token[0;37m => [0m[0;33m"pNrWomFV_7JFre0s1R0dow"[0m
+  }
+]
