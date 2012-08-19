@@ -8,59 +8,10 @@
     <%= render 'layouts/shim' %>
   </head>
 
-  <body id="vbb" onclick="screenfull.request( document.getElementById('vbb') );" style="background-color: white;">
+  <body id="vbb" style="background-color: white;">
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script src="http://w3resource.com/demos/src/screenfull.js"></script>
-	<script>
-	$(function() {
-
-		$('#supported').text( 'Supported: ' + !!screenfull );
-
-		if ( !screenfull ) {
-			return false;
-		}
-
-		$('#vb').click(function() {
-			//  screenfull.request( document.getElementById('vb') );
-			// Does not require jQuery, can be used like this too:
-			// screenfull.request( document.getElementById('container') );
-		});
-
-		$('#exit').click(function() {
-			screenfull.exit();
-		});
-
-		$('#toggle').click(function() {
-			screenfull.toggle( $('#container')[0] );
-		});
-
-		$('#request2').click(function() {
-			screenfull.request();
-		});
-
-		$('#demo-img').click(function() {
-			screenfull.toggle( this );
-		})
-
-		$('#demo-video').click(function() {
-			screenfull.toggle( this );
-		})
-
-		screenfull.onchange = function( e ) {
-			$('#status').text( 'Is fullscreen: ' + screenfull.isFullscreen );
-			var elem = screenfull.element;
-			if ( elem ) {
-				$('#element').text( 'Element: ' + elem.localName + ( elem.id ? '#' + elem.id : '' ) );
-			}
-		};
-
-		// Trigger the onchange() to set the initial values
-		screenfull.onchange();
-
-	});
-	</script>
-
+    <%= render 'layouts/fullscreen' %>
+  
     <%= render 'layouts/header' %>
     <div class="container" id="vb">
       <% flash.each do |key, value| %>
