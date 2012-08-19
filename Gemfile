@@ -22,6 +22,7 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.2'
+gem 'client_side_validations'
 
 # Test gems on Linux
 group :test do

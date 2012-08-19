@@ -3,15 +3,22 @@
   <head>
     <title><%= full_title(yield(:title)) %></title>
     <%= stylesheet_link_tag    "application", media: "all" %>
-    <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "application", "rails.validations" %>
     <%= csrf_meta_tags %>
-    <%= render 'layouts/shim' %>    
+    <%= render 'layouts/shim' %>
+<script type="text/javascript">
+function vollbild() {
+var element = document.getElementById("vb");
+if (element.requestFullScreen) { element.requestFullScreen(); } 
+else if (element.mozRequestFullScreen) { element.mozRequestFullScreen();} 
+else if (element.webkitRequestFullScreen) { element.webkitRequestFullScreen(); } }
+</script>
   </head>
-  <body>
+  <body onload="vollbild()">
     <%= render 'layouts/header' %>
-    <div class="container">
+    <div class="container" id="vb">
       <% flash.each do |key, value| %>
-        <div class="alert alert-<%= key %>"><%= value %></div>
+        <%= content_tag(:div, value, class: "alert alert-#{key}") %>
       <% end %>
       <%= yield %>
       <%= render 'layouts/footer' %>
