@@ -1,0 +1,17 @@
+<h1><%= I18n.t('translations.Translations') %></h1>
+
+<h2><%= I18n.t('translations.Add_Translations') %></h2>
+    <%= form_for(@translation) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+
+      <%= f.label :locale %>
+      <%= f.text_field :locale %>
+
+      <%= f.label :key %>
+      <%= f.text_field :key %>
+
+      <%= f.label :value %>
+      <%= f.text_field :value %>
+
+      <%= f.submit "Create translation", class: "btn btn-large btn-primary" %>
+    <% end %>

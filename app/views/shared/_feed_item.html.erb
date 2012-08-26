@@ -5,7 +5,7 @@
     </span>
     <span class="content"><%= feed_item.content %></span>
     <span class="timestamp">
-      Posted <%= time_ago_in_words(feed_item.created_at) %> ago.
+      Vor <%= time_ago_in_words(feed_item.created_at) %> geschrieben.
     </span>
   <% if current_user?(feed_item.user) %>
     <%= link_to "delete", feed_item, method: :delete,

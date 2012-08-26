@@ -6,3 +6,6 @@ en:
     attributes:
       user:
         password_digest: "Password"
+  translations:
+    Translations: "Translation"
+    Add_Translations: "Add translation"
